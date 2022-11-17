@@ -67,7 +67,7 @@ resource "google_artifact_registry_repository_iam_member" "artifactregistry_read
   location   = google_artifact_registry_repository.repo.location
   repository = google_artifact_registry_repository.repo.name
   role       = "roles/artifactregistry.reader"
-  member     = "serviceAccount:quickstart-quarkus@argolis-shogow-java.iam.gserviceaccount.com"
+  member     = "serviceAccount:${google_service_account.app.email}"
 }
 
 resource "google_cloud_run_service_iam_member" "run_developer-to-cloudbuild" {
