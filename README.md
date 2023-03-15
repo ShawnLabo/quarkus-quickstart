@@ -1,6 +1,8 @@
 Quarkus Quickstart
 ==================
 
+**Moved to [ShawnLabo/google-cloud-examples](https://github.com/ShawnLabo/google-cloud-examples/tree/main/java/quarkus-quickstart)**
+
 **このプロジェクトは Google Cloud の公式プロジェクトではありません**
 
 ## 準備
